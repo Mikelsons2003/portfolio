@@ -8,7 +8,7 @@ const About = () => {
         return <div className="w-4 h-4 border-2 border-[#69369E] rounded-full"></div>;
     };
     return (
-        <div name="about" className="w-full h-screen bg-gradient-to-b from-[#0B0205] via-[#0B0205] to-[#2C1B47] text-gray-300">
+        <div name="about" className="w-full bg-gradient-to-b from-[#0B0205] via-[#0B0205] to-[#2C1B47] text-gray-300 pt-36 pb-36">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col text-center justify-center items-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-[#724C9D]">
@@ -16,7 +16,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-8">
-                    <div className="shadow-md shadow-[#2C1B47] hover:scale-105 duration-300 py-2 px-2 rounded-lg h-64 w-80">
+                    <div className="shadow-md shadow-[#2C1B47] hover:scale-105 duration-300 py-2 px-2 rounded-lg h-60 sm:h-64 w-72 sm:w-80">
                         <p className="pb-4 text-lg font-bold text-[#724C9D]">Languages</p>
                         <div className="flex flex-col gap-2">
                             <div className="flex flex-row justify-between gap-1 pr-2">
@@ -39,7 +39,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="shadow-md shadow-[#2C1B47] hover:scale-105 duration-300 py-2 px-2 rounded-lg  h-64 w-80">
+                    <div className="shadow-md shadow-[#2C1B47] hover:scale-105 duration-300 py-2 px-2 rounded-lg  h-60 sm:h-64 w-72 sm:w-80">
                         <p className="pb-4 text-lg font-bold text-[#724C9D]">My Achievements</p>
                         <div className="flex flex-col gap-2">
                             <ul className="list-disc list-inside text-left">
@@ -48,7 +48,7 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="shadow-md shadow-[#2C1B47] hover:scale-105 duration-300 py-2 px-2 rounded-lg h-64 w-80">
+                    <div className="shadow-md shadow-[#0B0205] hover:scale-105 duration-300 py-2 px-2 rounded-lg h-60 sm:h-64 w-72 sm:w-80">
                         <p className="pb-4 text-lg font-bold text-[#724C9D]">Hobbies</p>
                         <div className="flex flex-col gap-2">
                             <ul className="list-disc list-inside text-left">
@@ -61,7 +61,7 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="shadow-md shadow-[#2C1B47] hover:scale-105 duration-300 py-2 px-2 rounded-lg h-64 w-80">
+                    <div className="shadow-md shadow-[#0B0205] hover:scale-105 duration-300 py-2 px-2 rounded-lg h-60 sm:h-64 w-72 sm:w-80">
                         <p className="pb-4 text-lg font-bold text-[#724C9D]">My Goals</p>
                         <div className="flex flex-col gap-2">
                             <ul className="list-disc list-inside text-left">

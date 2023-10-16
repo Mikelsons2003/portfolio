@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="pb-8">
                 <p className="text-4xl font-bold border-b-4 border-[#724C9D] p-2 inline">Contact</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 text-center items-center gap-12 mb-20 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 text-center items-center gap-12 mb-20 pl-8">
                 <div className="flex flex-col gap-2 mx-auto text-left">
                     <p className="flex items-center"><HiOutlineMail size={22} className="mr-2"/> Email: miks.mikelsons11@gmail.com</p>
                     <p className="flex items-center"><AiOutlinePhone size={22} className="mr-2"/>Phone: +371 26997008</p>
