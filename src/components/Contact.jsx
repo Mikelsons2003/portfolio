@@ -49,7 +49,7 @@ const Contact = () => {
         }
     ]
     return (
-        <div name="contact" className="w-full h-screen bg-gradient-to-b from-[#2C1B47] via-[#2C1B47] to-[#0B0205] text-gray-300 flex flex-col justify-center items-center">
+        <div name="contact" className="w-full h-screen bg-gradient-to-b from-[#0B0205] via-[#0B0205] to-[#2C1B47] text-gray-300 flex flex-col justify-center items-center pt-36">
             <div className="pb-8">
                 <p className="text-4xl font-bold border-b-4 border-[#724C9D] p-2 inline">Contact</p>
             </div>

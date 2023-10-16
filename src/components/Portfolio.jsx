@@ -32,7 +32,7 @@ const Portfolio = () => {
     };
 
     return (
-        <div name="portfolio" className="bg-gradient-to-b from-[#2C1B47] via-[#2C1B47] to-[#0B0205] w-full text-gray-300 md:h-screen pb-36">
+        <div name="portfolio" className="bg-gradient-to-b from-[#0B0205] via-[#0B0205] to-[#2C1B47] w-full text-gray-300 md:h-screen pb-36 pt-36">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8 justify-center items-center text-center">
                     <p className="text-4xl font-bold inline border-b-4 border-[#724C9D]">Portfolio</p>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 {projects.map(({ id, src, string, projectName }) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <h1 className="font-bold text-gray-300 text-center">{projectName}</h1>
-                        <img src={src} alt="" className="rounded-tl-md rounded-tr-md duration-200 w-full object-fit max-w-full max-h-full" />
+                        <img src={src} alt="" className="rounded-tl-md rounded-tr-md duration-200 w-full object-fit" />
                         <div className="flex items-center justify-center">
                             <p className="hidden w-full px-2 py-2">{string}</p>
                             <button
