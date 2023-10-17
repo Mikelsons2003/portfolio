@@ -64,7 +64,7 @@ const Contact = () => {
                 <div className="flex flex-col gap-2 mx-auto text-center">
                     <ul className="pt-8">
                         {links.map(({ id, child, href, style, download }) => (
-                            <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 bg-[#724C9D] border-b-2 border-[#2C1B47] hover:scale-105 duration-200" + " " + style}>
+                            <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 bg-[#724C9D] border-b-2 border-[#2C1B47] hover:scale-105 duration-200 " + style}>
                                 <a href={href} className="flex justify-between items-center w-full text-gray-300" download={download} target="_blank" rel="noreferrer">{child}</a>
                             </li>
                         ))}
