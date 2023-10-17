@@ -38,7 +38,7 @@ const Journey = () => {
         }
     ]
     return (
-        <div name="journey" className="h-max w-full bg-gradient-to-b from-[#2C1B47] via-[#2C1B47] to-[#0B0205] text-gray-300 pt-36">
+        <div name="journey" className="h-screen w-full bg-gradient-to-b from-[#2C1B47] via-[#2C1B47] to-[#0B0205] text-gray-300 pt-36">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col text-center justify-center items-center w-full h-full">
                 <div className="pb-8 justify-center items-center text-center">
                     <p className="text-4xl font-bold inline border-b-4 border-[#724C9D]">My Journey</p>

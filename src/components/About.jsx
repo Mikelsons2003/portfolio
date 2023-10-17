@@ -8,7 +8,7 @@ const About = () => {
         return <div className="w-4 h-4 border-2 border-[#69369E] rounded-full"></div>;
     };
     return (
-        <div name="about" className="h-max w-full bg-gradient-to-b from-[#0B0205] via-[#0B0205] to-[#2C1B47] text-gray-300 pt-36">
+        <div name="about" className="h-screen w-full bg-gradient-to-b from-[#0B0205] via-[#0B0205] to-[#2C1B47] text-gray-300 pt-36">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col text-center justify-center items-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-[#724C9D]">
