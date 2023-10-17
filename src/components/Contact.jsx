@@ -1,5 +1,4 @@
 import React from 'react'
-import SocialLinks from './SocialLinks';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill, BsBank} from 'react-icons/bs';
