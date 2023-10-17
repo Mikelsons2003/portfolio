@@ -10,7 +10,7 @@ const Home = () => {
                     <h2 className="text-5xl sm:text-5xl font-bold">I'm a Front-End Developer</h2>
                     <p className="text-gray-300 py-4 max-w-md">
                         Graduate of a vocational school specializing in front-end programming.
-                        Currently working with technologies like React JS and Tailwind CSS.
+                        Currently working with technologies like, React JS and Tailwind CSS.
                     </p>
                     <div>
                         <button className="group text-gray-300 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#724C9D] to-[#9356A0] cursor-pointer">
