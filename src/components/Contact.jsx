@@ -1,9 +1,7 @@
 import React from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
-import {BsFillPersonLinesFill, BsBank} from 'react-icons/bs';
-import {AiOutlinePhone} from 'react-icons/ai';
-import {BiHome} from 'react-icons/bi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Contact = () => {
     const links = [
