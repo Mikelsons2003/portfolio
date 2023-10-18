@@ -6,7 +6,7 @@ import reactimage from "../assets/reactimage.png";
 import tailwind from "../assets/tailwind.png";
 import php from "../assets/php.png";
 import sql from "../assets/sql.png";
-import mysql from "../assets/mysql.jpg";
+import mysql from "../assets/mysql.png";
 import github from "../assets/github.png";
 
 const Experience = () => {
@@ -14,57 +14,57 @@ const Experience = () => {
     const techs = [
         {
             id: 1,
+            src: github,
+            title: 'GitHub',
+            style: 'shadow-gray-950'
+        },
+        {
+            id: 2,
             src: html,
             title: 'HTML',
             style: 'shadow-orange-500'
         },
         {
-            id: 2,
+            id: 3,
             src: css,
             title: 'CSS',
             style: 'shadow-blue-500'
         },
         {
-            id: 3,
+            id: 4,
             src: javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
-            id: 4,
+            id: 5,
             src: reactimage,
             title: 'React',
             style: 'shadow-blue-600'
         },
         {
-            id: 5,
+            id: 6,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
         {
-            id: 6,
+            id: 7,
             src: php,
             title: 'PHP',
             style: 'shadow-[#6181b6]'
         },
         {
-            id: 7,
+            id: 8,
             src: sql,
             title: 'SQL',
             style: 'shadow-[#0079d6]'
         },
         {
-            id: 8,
+            id: 9,
             src: mysql,
             title: 'MySQL',
             style: 'shadow-[#00618b]'
-        },
-        {
-            id: 9,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-[#000000]'
         }
     ]
 

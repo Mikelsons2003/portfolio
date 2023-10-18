@@ -42,7 +42,7 @@ const NavBar = () => {
                 <h1 className="text-5xl font-signature ml-2">Miks</h1>
             </div>
 
-            <ul className="hidden md:flex">
+            <ul className="hidden sm:flex">
                 {links.map(({ id, link }) => (
                     <li
                         key={id}
@@ -60,7 +60,7 @@ const NavBar = () => {
                 ))}
             </ul>
 
-            <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-300 md:hidden">
+            <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-300 sm:hidden">
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
 

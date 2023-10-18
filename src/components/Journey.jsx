@@ -39,33 +39,32 @@ const Journey = () => {
     ]
     return (
         <div name="journey" className="h-screen w-full bg-gradient-to-b from-[#2C1B47] via-[#2C1B47] to-[#0B0205] text-gray-300 pt-20">
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col text-center justify-center items-center w-full h-full">
-                <div className="pb-8 justify-center items-center text-center">
+            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full">
+                <div className="pb-8 text-center">
                     <p className="text-4xl font-bold inline border-b-4 border-[#724C9D]">My Journey</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="flex flex-col">
                         <div className="pb-4">
                             <p className="text-gray-300 font-bold text-2xl text-left">Journey</p>
                         </div>
-                        {journey.map(({ id, year, school, degree}) => (
-                            <div key={id} className="border-2 border-[#69369E] w-full h-[160px] p-2 text-left">
-                            <p><span className="font-bold">Year: </span>{year}</p>
-                            <p><span className="font-bold">School - </span>{school}</p>
-                            <p><span className="font-bold">Degree: </span>{degree}</p>
+                        {journey.map(({ id, year, school, degree }) => (
+                            <div key={id} className="shadow-md shadow-[#724C9D] p-4 mb-4 rounded-lg hover:scale-105 duration-500">
+                                <p className="font-bold">Year: {year}</p>
+                                <p className="font-bold">School: {school}</p>
+                                <p className="font-bold">Degree: {degree}</p>
                             </div>
                         ))}
-
                     </div>
                     <div className="flex flex-col">
                         <div className="pb-4">
                             <p className="text-gray-300 font-bold text-2xl text-left">Experience</p>
                         </div>
-                        {experience.map(({ id, year, company, role}) => (
-                            <div key={id} className="border-2 border-[#69369E] w-full h-[160px] p-2 text-left">
-                                <p><span className="font-bold">Year: </span>{year}</p>
-                                <p><span className="font-bold">Company's name: </span>{company}</p>
-                                <p><span className="font-bold">My Role: </span>{role}</p>
+                        {experience.map(({ id, year, company, role }) => (
+                            <div key={id} className="shadow-md shadow-[#724C9D] p-4 mb-4 rounded-lg hover:scale-105 duration-500">
+                                <p className="font-bold">Year: {year}</p>
+                                <p className="font-bold">Company's name: {company}</p>
+                                <p className="font-bold">My Role: {role}</p>
                             </div>
                         ))}
                     </div>

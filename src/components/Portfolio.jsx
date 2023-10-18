@@ -42,7 +42,7 @@ const Portfolio = () => {
                 {projects.map(({ id, src, string, projectName }) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <h1 className="font-bold text-gray-300 text-center">{projectName}</h1>
-                        <img src={src} alt="" className="rounded-tl-md rounded-tr-md duration-200 w-full object-fit" />
+                        <img src={src} alt="" className="rounded-tl-md rounded-tr-md duration-200 object-fit w-[500px] h-[180px] md:w-[480px] md:h-[230px]" />
                         <div className="flex items-center justify-center">
                             <p className="hidden w-full px-2 py-2">{string}</p>
                             <button
